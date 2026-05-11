@@ -15,7 +15,7 @@ class DataAnalyser:
         return f"DataAnalyser: base class, {len(self.students)} students"
 
 
-# Task2 Child class TopStudentsAnalyser (Variant D)
+# Task2 Child class TopStudentsAnalyser
 class TopStudentsAnalyser(DataAnalyser):
     def __init__(self, students):
         super().__init__(students)
